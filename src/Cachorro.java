@@ -9,7 +9,11 @@ public class Cachorro extends Animal {
 
     @Override
     public void locomover() {
+        System.out.println("Estou correndo!");
+    }
 
+    public final void latir() {
+        System.out.println("Au au au!");
     }
 
 
