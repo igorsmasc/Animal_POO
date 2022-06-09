@@ -1,3 +1,6 @@
+
+// A Classe abstrata não pode ser instanciada -> Não consigo criar um objeto
+// diretamente dessa classe
 public abstract class Animal {
 
     private String nome;
