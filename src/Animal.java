@@ -14,9 +14,12 @@ public abstract class Animal {
         this.peso = peso;
     }
 
-    public void locomover() {
-        System.out.println("Estou em movimento!");
-    }
+    // Método declarado na classe mãe, mas implementado nas classes filhas
+    public abstract void locomover();
+
+//    public void locomover() {
+//        System.out.println("Estou em movimento!");
+//    }
 
     public String getNome() {
         return nome;

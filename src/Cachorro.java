@@ -7,6 +7,12 @@ public class Cachorro extends Animal {
         super(nome, peso);
     }
 
+    @Override
+    public void locomover() {
+
+    }
+
+
     public String getRaca() {
         return raca;
     }

@@ -4,6 +4,11 @@ public class Passaro extends Animal {
     public Passaro() {
     }
 
+    @Override
+    public void locomover() {
+        System.out.println("Estou voando!");
+    }
+
     public Passaro(String nome, double peso) {
         super(nome, peso);
     }

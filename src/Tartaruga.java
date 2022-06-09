@@ -4,6 +4,11 @@ public class Tartaruga extends Animal {
     public Tartaruga() {
     }
 
+    @Override
+    public void locomover() {
+        System.out.println("Estou me movendo beeem devagar!");
+    }
+
     public Tartaruga(String nome, double peso) {
         super(nome, peso);
     }
